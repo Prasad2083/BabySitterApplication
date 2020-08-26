@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nannyscroll"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".ProfileCreationForNanny">
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/profileimg"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/friend" />
+
+    <TextView
+        android:id="@+id/textwelcome"
+        android:layout_width="223dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/boogaloo"
+        android:textColor="#8ec6eb"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textSize="28dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="6dp"
+            card_view:cardUseCompatPadding="true">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+
+                <EditText
+                    android:id="@+id/editfname"
+                    android:singleLine="true"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_baseline_person_24"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="6dp"
+            card_view:cardUseCompatPadding="true">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+
+                <EditText
+                    android:id="@+id/editloc"
+                    android:singleLine="true"
+                    android:hint="Location"
+                    android:inputType="text"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_baseline_location_on_24"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="6dp"
+            card_view:cardUseCompatPadding="true">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+
+                <EditText
+                    android:id="@+id/editdescription"
+                    android:singleLine="true"
+                    android:hint="Description"
+                    android:inputType="text"
+                    android:background="#FFFFFF"
+                    android:drawableStart="@drawable/ic_baseline_description_24"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="6dp">
+
+            <EditText
+                android:id="@+id/editkids"                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="No of persons" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+            <EditText
+                android:id="@+id/edithour"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Per Hour Rate"
+                android:inputType="textPersonName" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/servicegrp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/child"
+                android:layout_width="130dp"
+                android:layout_height="39dp"
+                android:text="ForKids"
+                android:textSize="18sp">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/old"
+                android:layout_width="130dp"
+                android:layout_height="39dp"
+                android:text="ForOld"
+                android:textSize="18sp">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/both"
+                android:layout_width="130dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="10dp"
+                android:text="For Both"
+                android:textSize="18sp">
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/savebtn"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"
+        android:text="SaveDetails" />
+
+</LinearLayout>

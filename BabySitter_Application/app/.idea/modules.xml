@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="finalprojectgroup8/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balne-app.iml" filepath="$PROJECT_DIR$/.idea/modules/balne-app.iml" group="finalprojectgroup8/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1745599507/balne-finalprojectgroup8.iml" filepath="$PROJECT_DIR$/.idea/modules/-1745599507/balne-finalprojectgroup8.iml" group="finalprojectgroup8" />
+      <module fileurl="file://$PROJECT_DIR$/../finalprojectgroup8.iml" filepath="$PROJECT_DIR$/../finalprojectgroup8.iml" group="finalprojectgroup8" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/finalprojectgroup8-app.iml" filepath="$PROJECT_DIR$/.idea/modules/finalprojectgroup8-app.iml" group="finalprojectgroup8/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/latest-app.iml" filepath="$PROJECT_DIR$/.idea/modules/latest-app.iml" group="finalprojectgroup8/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-491061641/latest-finalprojectgroup8.iml" filepath="$PROJECT_DIR$/.idea/modules/-491061641/latest-finalprojectgroup8.iml" group="finalprojectgroup8" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prasadcommit-app.iml" filepath="$PROJECT_DIR$/.idea/modules/prasadcommit-app.iml" group="finalprojectgroup8/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-696272059/prasadcommit-finalprojectgroup8.iml" filepath="$PROJECT_DIR$/.idea/modules/-696272059/prasadcommit-finalprojectgroup8.iml" group="finalprojectgroup8" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1010323582/test-finalprojectgroup8.iml" filepath="$PROJECT_DIR$/.idea/modules/-1010323582/test-finalprojectgroup8.iml" group="finalprojectgroup8" />
+      <module fileurl="file://$PROJECT_DIR$/test1-app.iml" filepath="$PROJECT_DIR$/test1-app.iml" group="finalprojectgroup8/app" />
+      <module fileurl="file://$PROJECT_DIR$/../test1-finalprojectgroup8.iml" filepath="$PROJECT_DIR$/../test1-finalprojectgroup8.iml" group="finalprojectgroup8" />
+    </modules>
+  </component>
+</project>

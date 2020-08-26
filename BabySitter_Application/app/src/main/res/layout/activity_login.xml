@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:layout_marginTop="100dp"
+        android:text="LOGIN HERE"
+        android:textColor="#3990D5"
+        android:layout_gravity="center"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            >-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/loginemail"-->
+<!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--                android:hint="Username" />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="6dp"
+            card_view:cardUseCompatPadding="true">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+
+        <EditText
+            android:id="@+id/loginemail"
+            android:singleLine="true"
+            android:hint="Username"
+            android:inputType="text"
+            android:background="#FFFFFF"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="6dp"
+            card_view:cardUseCompatPadding="true">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:passwordToggleEnabled="true"
+                >
+            <EditText
+                android:id="@+id/loginpass"
+                android:singleLine="true"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:background="#FFFFFF"
+                android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF">
+
+    </Button>
+
+    <Button
+        android:id="@+id/signbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp"
+        android:text="Signup"
+        android:textColor="#FFFFFF">
+
+    </Button>
+
+
+</LinearLayout>

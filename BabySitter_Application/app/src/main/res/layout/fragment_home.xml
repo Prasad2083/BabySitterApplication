@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filterslist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+   <EditText
+       android:id="@+id/searchtext"
+       android:layout_width="365dp"
+       android:layout_height="54dp"
+       android:layout_margin="16dp"
+       app:layout_constraintBottom_toTopOf="@+id/listoffilter"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints" />
+
+   <Button
+       android:id="@+id/listoffilter"
+       android:layout_width="237dp"
+       android:layout_height="35dp"
+       android:layout_margin="21dp"
+       android:background="@drawable/custom_button"
+       android:text="Filters"
+       app:layout_constraintBottom_toTopOf="@+id/frame_layout"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="1.0"
+       tools:ignore="MissingConstraints" />
+
+   <FrameLayout
+       android:id="@+id/frame_layout"
+       android:layout_width="417dp"
+       android:layout_height="592dp"
+       android:background="#CFDEE8"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       tools:ignore="MissingConstraints">
+
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recyclerview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:layout_behavior="@string/appbar_scrolling_view_behavior"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="1.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="1.0" />
+   </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/weldata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Price : $ 21"
+        android:textAlignment="center"
+        android:textColor="#3990D5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/promptgrp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/forchild"
+                android:layout_width="130dp"
+                android:layout_height="39dp"
+                android:text="For Children"
+                android:textSize="18sp">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/forold"
+                android:layout_width="130dp"
+                android:layout_height="39dp"
+                android:text="Old People"
+                android:textSize="18sp">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/forboth"
+                android:layout_width="130dp"
+                android:layout_height="39dp"
+                android:text="For Both"
+                android:textSize="18sp">
+            </RadioButton>
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

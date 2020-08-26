@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_action_home"/>
+        <item
+            android:id="@+id/vp"
+            android:title="View Profile"
+            android:icon="@drawable/ic_action_view"/>
+        <item
+            android:id="@+id/review"
+            android:title="My Reviews"
+            android:icon="@drawable/ic_action_review"/>
+        <item
+            android:id="@+id/bstnanny"
+            android:title="Best Nanny"
+            android:icon="@drawable/ic_action_bnanny"/>
+        <item
+            android:id="@+id/bstemp"
+            android:title="Best Employee"
+            android:icon="@drawable/ic_action_bemp"/>
+
+
+        </group>
+
+    <item android:title="Controls">
+        <menu>
+
+        <item
+            android:id="@+id/updt"
+            android:title="Update Profile"
+            android:icon="@drawable/ic_action_updt"/>
+        <item
+            android:id="@+id/lgout"
+            android:title="Logout"
+            android:icon="@drawable/ic_action_lgout"/>
+
+        </menu>
+    </item>
+
+
+
+</menu>

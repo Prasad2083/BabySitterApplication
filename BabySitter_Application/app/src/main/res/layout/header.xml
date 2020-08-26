@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/hedname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#3990D5"
+        android:text="Baby Oldster Care Givers"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hedemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="babyoldstercaregivers@gmail.com"
+        android:textColor="#3990D5"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/hedstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="status"
+        android:textColor="#3990D5"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

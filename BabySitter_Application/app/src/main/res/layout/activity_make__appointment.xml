@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Make_Appointment"
+
+    >
+
+    <!-- Add CalenderView to display the Calender -->
+
+    <ru.ifr0z.timepickercompact.TimePickerCompact
+        android:id="@+id/timepickertimeline"
+        android:layout_width="413dp"
+        android:layout_height="365dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="371dp"
+        android:layout_height="51dp"
+        android:text="Selected Time :"
+        android:textAlignment="center"
+        android:textColor="#3990D5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="371dp"
+        android:layout_height="51dp"
+        android:text="Selected Date :"
+        android:textAlignment="center"
+        android:textColor="#3990D5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
+    <com.vivekkaushik.datepicker.DatePickerTimeline
+        android:id="@+id/datepickertimeline"
+        android:layout_width="435dp"
+        android:layout_height="104dp"
+        android:background="#2183d1"
+        app:dateTextColor="@color/white"
+        app:dayTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718"
+        app:monthTextColor="@color/white" />
+
+    <Button
+        android:id="@+id/fixmake"
+        android:layout_width="192dp"
+        android:layout_height="38dp"
+        android:background="@drawable/custom_button"
+        android:text="Send Request"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+</androidx.constraintlayout.widget.ConstraintLayout>
